@@ -1,2 +1,2 @@
-# IT-140-Introduction-to-Scripting-Projects
+# Python-Scripting-and-Automation
 This coursework focused on translating requirements into computational solutions, writing scripts using industry best practices, and developing fully functional programs. Through projects involving data types, variables, loops, functions, and file handling, I built a strong foundation in programming fundamentals. These skills directly support cybersecurity by enabling automation, log analysis, and the development of tools for problem-solving and secure IT operations.
