@@ -1,0 +1,101 @@
+IT 140 Design Document Template
+
+Instructions
+Fill out the sections below. Be sure to remove the bracketed text before submitting your Design Document.
+
+Davanna Scroggins 
+
+Storyboard (Description and Map)
+As a newly trained fairy you currently reside within the mystical confines of the Enchanted Forest. An evil magician has cast a powerful enchantment that drains the forest's magic and threatens the existence of every magical creature within. Six enchanted relics hidden in different forest areas need to be collected to break the curse. Watch your step because the sorcerer's shadow beast prowls in the Dark Hollow. Collect all the necessary items before you face off against the beast. Facing him without preparation will lead to eternal entrapment in darkness.
+
+Rooms:
+Fairy Circle (Start Room)
+
+Crystal Lake
+
+Hissing Meadow
+
+Moonlit Grove
+
+Shimmering Falls
+
+Sunstone Cavern
+
+Rosebud Sanctuary
+
+Shadowy Void (Villain Room)
+
+Items:
+
+Moonstone Necklace (Moonlit Grove)
+
+Crystal ball (Crystal Lake)
+
+Sunstone Bracelet (Sunstone Cavern)
+
+Hissing Feather (Hissing Meadow)
+
+Rosebud Elixir (Rosebud Sanctuary)
+
+Waterfall Tear (Shimmering Falls)
+
+
+
+
+Pseudocode or Flowchart for Code to “Move Between Rooms”:
+
+WHILE game is not over:
+    DISPLAY current room
+    PROMPT player for move direction (North, South, East, West)
+    
+    IF input is valid direction:
+        IF there is a room in that direction:
+            MOVE player to the new room
+        ELSE:
+            DISPLAY "You can't go that way!"
+    ELSE:
+        DISPLAY "Invalid direction. Please enter North, South, East, or West."
+    
+    IF current room == Shadowy Void:
+        IF inventory contains all 6 items:
+            DISPLAY "You have defeated the Shadow Beast and removed the curse! You win!"
+            END game
+        ELSE:
+            DISPLAY "The Shadow Beast has trapped you in eternal darkness. Game over!"
+            END game
+
+
+
+
+
+
+
+
+
+
+
+Pseudocode or Flowchart for Code to “Get an Item”:
+
+IF current room contains item AND item not already in inventory:
+    DISPLAY "You see [item name]"
+    PROMPT player: "Type 'get [item name]' to collect the item."
+    IF player input == "get [item name]":
+        ADD item to inventory
+        DISPLAY "[item name] added to inventory."
+    ELSE:
+        DISPLAY "Invalid input. Try again."
+ELSE:
+    DISPLAY "There is nothing to collect here."
+
+
+
+
+
+
+1
+
+
+
+
+
+
