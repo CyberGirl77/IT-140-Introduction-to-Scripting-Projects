@@ -1,8 +1,3 @@
-IT 140 Design Document Template
-
-Instructions
-Fill out the sections below. Be sure to remove the bracketed text before submitting your Design Document.
-
 Davanna Scroggins 
 
 Storyboard (Description and Map)
@@ -42,7 +37,7 @@ Waterfall Tear (Shimmering Falls)
 
 
 
-Pseudocode or Flowchart for Code to ìMove Between Roomsî:
+Pseudocode or Flowchart for Code to ‚ÄúMove Between Rooms‚Äù:
 
 WHILE game is not over:
     DISPLAY current room
@@ -74,7 +69,7 @@ WHILE game is not over:
 
 
 
-Pseudocode or Flowchart for Code to ìGet an Itemî:
+Pseudocode or Flowchart for Code to ‚ÄúGet an Item‚Äù:
 
 IF current room contains item AND item not already in inventory:
     DISPLAY "You see [item name]"
@@ -93,6 +88,7 @@ ELSE:
 
 
 1
+
 
 
 
